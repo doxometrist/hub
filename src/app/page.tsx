@@ -1,11 +1,12 @@
+import { Main } from "@/components/Main";
 import { Header } from "../components/Header";
 
 export default async function Home() {
-
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <h3>just testing</h3>
+      <Main />
     </>
   );
 }

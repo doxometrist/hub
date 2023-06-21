@@ -1,4 +1,16 @@
+- [x] add header in a uniform way
+
+- [ ] add links to the different sites
+- [ ] add example roadmaps
+
+- [ ] put all the stuff on substack
+  - [ ] put the Andromeda story on substack
+  - [ ] put BoG stuff on substack as well
 
 - [ ] make all the content links
-- [ ] change font
-- [ ] add header in a uniform way
+  - [ ] old post series
+  - [ ] recent post series
+  - [ ] planned post series
+
+- [ ] change font https://fonts.google.com/
+  - [ ] the one for titles

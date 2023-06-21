@@ -3,4 +3,5 @@ export type SeriesProps = {
   description: string;
   photoUrl: string;
   title: string;
+  completed: boolean;
 };
