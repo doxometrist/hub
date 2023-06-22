@@ -4,7 +4,7 @@
 - [ ] add example roadmaps
 
 - [ ] put all the stuff on substack
-  - [ ] put the Andromeda story on substack
+  - [x] put the Andromeda story on substack
   - [ ] put BoG stuff on substack as well
 
 - [ ] make all the content links
@@ -14,3 +14,5 @@
 
 - [ ] change font https://fonts.google.com/
   - [ ] the one for titles
+
+might use [arveave](https://www.arweave.org/) at some point to ensure the persistence of this archive
