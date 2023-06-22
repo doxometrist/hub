@@ -1,11 +1,19 @@
 - [x] add header in a uniform way
 
-- [ ] add links to the different sites
-- [ ] add example roadmaps
-
-- [ ] put all the stuff on substack
+- [x] put all the stuff on substack
   - [x] put the Andromeda story on substack
-  - [ ] put BoG stuff on substack as well
+  - [x] put BoG stuff on substack as well
+
+- [x] type - software project
+
+- [ ] add links to the different sites
+  - [ ] different substacks
+  - [ ] reference lit-tracker
+  - [ ] hero, 
+  - [ ] featured content section
+  - [ ] categories
+  - [ ] timeline
+  - [ ] content teaser
 
 - [ ] make all the content links
   - [ ] old post series
@@ -15,4 +23,7 @@
 - [ ] change font https://fonts.google.com/
   - [ ] the one for titles
 
-might use [arveave](https://www.arweave.org/) at some point to ensure the persistence of this archive
+### Later features
+- [ ] add example roadmaps
+
+- [ ] might use [arveave](https://www.arweave.org/) at some point to ensure the persistence of this archive
