@@ -2,6 +2,8 @@ import "./globals.css";
 import { Navbar } from "@/components/sitewide/Navbar";
 import { Header } from "@/components/sitewide/Header";
 import { inter, normalFont } from "./fonts";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 export const metadata = {
   title: "Todo App",

@@ -3,16 +3,11 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const outcomes = [
-  "How to build this landing page with Next.js",
-  "How to create API endpoint and integrate with ConvertKit API",
-  "How to use React Hook Form and TailwindCSS",
+  "Substack series - online pseud philosophy",
+  "Software projects - tools for the terminally online community",
+  "All other stuff - if I do a podcast one day, it'll be referenced here!",
 ];
 
-const ComingSoonBadge = () => (
-  <span className="bg-blue-500 text-white text-xs py-1 px-2 rounded-md mb-4 inline-block">
-    Coming Soon!
-  </span>
-);
 
 const Hero = () => {
   return (
@@ -21,10 +16,10 @@ const Hero = () => {
         <Image src={""} alt={""} />
       </div>
       <div className="px-4 md:px-8 py-6 self-center md:w-2/3">
-        <h2 className="font-bold text-2xl mb-3">What you'll learn</h2>
+        <h2 className="font-bold text-2xl mb-3">this is a directory to my:</h2>
         <ul className="mb-6">
           {outcomes.map((i) => (
-            <li key={i} className="text-gray-700 flex mb-2">
+            <li key={i} className="text-slate-300 flex mb-2">
               <span className="self-center mr-2">
                 <FontAwesomeIcon icon="check" />
               </span>
@@ -32,8 +27,6 @@ const Hero = () => {
             </li>
           ))}
         </ul>
-        <ComingSoonBadge />
-        <div>SIGNUP FORM GOES HERE</div>
       </div>
     </div>
   );

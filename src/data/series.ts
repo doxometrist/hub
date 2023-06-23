@@ -1,11 +1,13 @@
-import { SeriesProps } from "@/components/post-related/Series";
+import { SeriesProps } from "@/components/post-related/SeriesProps";
 
 const degreeblingSeries: SeriesProps = {
   href: "https://doxometrist.substack.com/p/degreebling-14-revisiting-greebling",
   description: "",
   photoUrl: "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fac490bb7-18f6-4491-af19-5acc9391cdca_714x399.png",
   title: "Degreebling",
-  completed: true
+  completed: true,
+  id: 0,
+  featured: true
 };
 
 const starterSeries: SeriesProps = {
@@ -13,7 +15,9 @@ const starterSeries: SeriesProps = {
   description: "",
   photoUrl: "",
   title: "Starter series",
-  completed: false
+  completed: false,
+  id: 1,
+  featured: true
 };
 
 const spqrSeries: SeriesProps = {
@@ -21,7 +25,8 @@ const spqrSeries: SeriesProps = {
   description: "A toolset for discussion",
   photoUrl: "",
   title: "SPQR discourse division",
-  completed: false
+  completed: false,
+  id: 2
 };
 
 const epistemologySeries: SeriesProps = {
@@ -29,7 +34,8 @@ const epistemologySeries: SeriesProps = {
   description: "On what we can know and how",
   photoUrl: "",
   title: "My take on epistmology",
-  completed: false
+  completed: false,
+  id: 3
 };
 
 const ontologySeries: SeriesProps = {
@@ -37,7 +43,8 @@ const ontologySeries: SeriesProps = {
   description: "On what is",
   photoUrl: "",
   title: "Neo-Deleuzian ontology",
-  completed: false
+  completed: false,
+  id: 4
 };
 
 const ethicsSeries: SeriesProps = {
@@ -45,7 +52,8 @@ const ethicsSeries: SeriesProps = {
   description: "Normative discussions",
   photoUrl: "",
   title: "Ethics in the age of sapient machines",
-  completed: false
+  completed: false,
+  id: 4
 };
 
 const historySeries: SeriesProps = {
@@ -53,7 +61,8 @@ const historySeries: SeriesProps = {
   description: "Journey from the start of the Universe to 21st century, but based.",
   photoUrl: "",
   title: "Theorizing how we got here",
-  completed: false
+  completed: false, id: 5
+
 };
 
 const modernitySeries: SeriesProps = {
@@ -61,7 +70,8 @@ const modernitySeries: SeriesProps = {
   description: "Doomer stuff really",
   photoUrl: "",
   title: "Theorizing where we are",
-  completed: false
+  completed: false,
+  id: 6
 };
 
 const futureSeries: SeriesProps = {
@@ -69,7 +79,8 @@ const futureSeries: SeriesProps = {
   description: "Reasons for hope?",
   photoUrl: "",
   title: "Theorizing where can we go",
-  completed: false
+  completed: false,
+  id: 7
 };
 
 

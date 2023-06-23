@@ -5,6 +5,7 @@ export type SoftwareProjectProps = {
   demoUrl: string;
 };
 
+import Link from "next/link";
 import React from "react";
 
 function SoftwareProjectCard(
@@ -15,7 +16,12 @@ function SoftwareProjectCard(
       <h3>
         {title}
       </h3>
-      {codeUrl}
+      <Link
+        className="italic underline "
+        href={codeUrl}
+      >
+        {codeUrl}
+      </Link>
       <p>
         {description}
       </p>

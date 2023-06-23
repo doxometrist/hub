@@ -6,12 +6,12 @@
 
 - [x] type - software project
 
-- [ ] add links to the different sites
+- [x] add links to the different sites
   - [x] different substacks
   - [x] reference lit-tracker
-  - [ ] hero
-  - [ ] featured content section
-  - [ ] copiable links for every element
+  - [x] hero
+  - [x] featured content section
+  - [x] copiable links for every element
 
 - [x] change font https://fonts.google.com/
   - [x] the one for titles
@@ -21,8 +21,6 @@
 - [ ] add example roadmaps
 - [ ] might use [arveave](https://www.arweave.org/) at some point to ensure the
       persistence of this archive
-
   - [ ] categories
   - [ ] timeline
   - [ ] content teaser
-

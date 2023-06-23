@@ -1,21 +1,33 @@
 /** @type {import('next').NextConfig} */
 const prodConfig = {
-  // output: 'export',
-  // basePath: "/hub",
-  output: 'standalone',
-  basePath: "",
+  output: 'export',
+  basePath: "/hub",
   images: {
-    unoptimized: true
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'substackcdn.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
-  experimental: {
-    // serverActions: true
-  }
 }
-
 
 const devConfig = {
   output: 'standalone',
   basePath: "",
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'substackcdn.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  },
 };
 
 const dev = process.env.NODE_ENV === 'development'

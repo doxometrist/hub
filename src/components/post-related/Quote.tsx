@@ -2,7 +2,7 @@ export interface QuoteProps {
   author: string;
   content: string;
   link: string;
-  textTitle: string;
+  textTitle?: string;
 }
 
 import React from "react";
@@ -11,7 +11,11 @@ function Quote({ author, textTitle, link, content }: QuoteProps) {
   return (
     <div>
       <h5>
-        from<cite>{textTitle}</cite> by {author}:
+        {textTitle && (
+          <span>
+            from<cite>{textTitle}</cite> by
+          </span>
+        )} {author}:
       </h5>
       <blockquote cite={link}>
         {content}
