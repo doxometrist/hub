@@ -3,7 +3,7 @@ import SeriesCard from "@/components/post-related/SeriesCard";
 import { SeriesProps } from "@/components/post-related/SeriesProps";
 import { series } from "@/data/series";
 import Link from "next/link";
-
+const cta = "There's only 1 call to action here:";
 export default async function Home() {
   const featured: SeriesProps[] = series.filter((s) => s.featured);
   return (
@@ -24,7 +24,7 @@ export default async function Home() {
       </div>
       <div id="cta" className="m-2 p-2">
         <h3 id="cta" className="m-2 p-2">
-          There's only 1 call to action here:
+          {cta}
         </h3>
         <span>
           <a
@@ -37,7 +37,6 @@ export default async function Home() {
           <script
             async
             src="https://platform.twitter.com/widgets.js"
-            charSet="utf-8"
           >
           </script>
         </span>
