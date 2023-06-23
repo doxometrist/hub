@@ -7,23 +7,22 @@
 - [x] type - software project
 
 - [ ] add links to the different sites
-  - [ ] different substacks
-  - [ ] reference lit-tracker
-  - [ ] hero, 
+  - [x] different substacks
+  - [x] reference lit-tracker
+  - [ ] hero
   - [ ] featured content section
+  - [ ] copiable links for every element
+
+- [x] change font https://fonts.google.com/
+  - [x] the one for titles
+
+### Later features
+
+- [ ] add example roadmaps
+- [ ] might use [arveave](https://www.arweave.org/) at some point to ensure the
+      persistence of this archive
+
   - [ ] categories
   - [ ] timeline
   - [ ] content teaser
 
-- [ ] make all the content links
-  - [ ] old post series
-  - [ ] recent post series
-  - [ ] planned post series
-
-- [ ] change font https://fonts.google.com/
-  - [ ] the one for titles
-
-### Later features
-- [ ] add example roadmaps
-
-- [ ] might use [arveave](https://www.arweave.org/) at some point to ensure the persistence of this archive

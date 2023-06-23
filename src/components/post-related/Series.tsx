@@ -1,3 +1,4 @@
+"use client";
 export type SeriesProps = {
   href: string;
   description: string;
@@ -6,17 +7,27 @@ export type SeriesProps = {
   completed: boolean;
 };
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 
-import React from 'react'
-
-function SeriesCard() {
+function SeriesCard(
+  { href, description, photoUrl, title, completed }: SeriesProps,
+) {
+  const id = `series-${title}`;
+  const url = `http://localhost:3000/#${id}`;
   return (
-    <div>Series</div>
-  )
+    <div id={id}>
+      <button onClick={() => navigator.clipboard.writeText(url)}>copy</button>
+      <h3 className="text-xl bold">{title}</h3>
+      {completed
+        ? <FontAwesomeIcon icon="check" />
+        : <FontAwesomeIcon icon="x" />}
+      <p>{description}</p>
+    </div>
+  );
 }
 
-export default SeriesCard
+export default SeriesCard;
 
 function SeriesView() {
-
 }

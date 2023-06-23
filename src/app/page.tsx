@@ -1,5 +1,6 @@
+import Hero from "@/components/Hero";
 import { Main } from "@/components/Main";
-import { SeriesProps } from "@/components/post-related/Series";
+import SeriesCard, { SeriesProps } from "@/components/post-related/Series";
 import { Header } from "@/components/sitewide/Header";
 import { series } from "@/data/series";
 
@@ -11,6 +12,10 @@ export default async function Home() {
       <Header />
 
       <h3>just testing</h3>
+      <Hero />
+      {unfinishedSeries.map((s) => {
+        return <SeriesCard {...s} />;
+      })}
       <Main />
     </>
   );

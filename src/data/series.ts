@@ -1,4 +1,5 @@
 import { SeriesProps } from "@/components/post-related/Series";
+
 const degreeblingSeries: SeriesProps = {
   href: "https://doxometrist.substack.com/p/degreebling-14-revisiting-greebling",
   description: "",
@@ -11,50 +12,67 @@ const starterSeries: SeriesProps = {
   href: "https://doxometrist.substack.com/p/tpot-hermeticism-or-a-pagan-guide",
   description: "",
   photoUrl: "",
-  title: "",
-  completed: false
-};
-
-const reviewSeries: SeriesProps = {
-  href: "",
-  description: "",
-  photoUrl: "",
-  title: "",
-  completed: false
-};
-
-const decentralizationSeries: SeriesProps = {
-  href: "",
-  description: "",
-  photoUrl: "",
-  title: "",
+  title: "Starter series",
   completed: false
 };
 
 const spqrSeries: SeriesProps = {
   href: "",
-  description: "",
+  description: "A toolset for discussion",
   photoUrl: "",
-  title: "",
+  title: "SPQR discourse division",
+  completed: false
+};
+
+const epistemologySeries: SeriesProps = {
+  href: "",
+  description: "On what we can know and how",
+  photoUrl: "",
+  title: "My take on epistmology",
   completed: false
 };
 
 const ontologySeries: SeriesProps = {
   href: "",
-  description: "",
+  description: "On what is",
   photoUrl: "",
-  title: "",
+  title: "Neo-Deleuzian ontology",
   completed: false
 };
 
 const ethicsSeries: SeriesProps = {
   href: "",
-  description: "",
+  description: "Normative discussions",
   photoUrl: "",
-  title: "",
+  title: "Ethics in the age of sapient machines",
   completed: false
 };
 
+const historySeries: SeriesProps = {
+  href: "",
+  description: "Journey from the start of the Universe to 21st century, but based.",
+  photoUrl: "",
+  title: "Theorizing how we got here",
+  completed: false
+};
+
+const modernitySeries: SeriesProps = {
+  href: "",
+  description: "Doomer stuff really",
+  photoUrl: "",
+  title: "Theorizing where we are",
+  completed: false
+};
+
+const futureSeries: SeriesProps = {
+  href: "",
+  description: "Reasons for hope?",
+  photoUrl: "",
+  title: "Theorizing where can we go",
+  completed: false
+};
+
+
 export const series: SeriesProps[] = [
-  degreeblingSeries, starterSeries, reviewSeries, decentralizationSeries, spqrSeries, ontologySeries, ethicsSeries
+  degreeblingSeries, starterSeries, spqrSeries, epistemologySeries, ontologySeries, ethicsSeries, historySeries, modernitySeries, futureSeries
 ]
