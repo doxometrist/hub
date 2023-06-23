@@ -17,8 +17,8 @@ export default async function Home() {
       >
         <h4 className="text-xl m-2 p-2 ">Featured posts</h4>
         <div id="paraCarousel" className="m-2 p-1 flex flex-row">
-          {featured.map((s) => {
-            return <SeriesCard {...s} />;
+          {featured.map((s, i) => {
+            return <SeriesCard key={`series-${i}`} {...s} />;
           })}
         </div>
       </div>

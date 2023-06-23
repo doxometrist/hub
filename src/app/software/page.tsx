@@ -15,8 +15,8 @@ export default function SoftwarePage() {
       >
         <h4 className="text-xl m-2 p-2 ">My software projects</h4>
         <div id="paraCarousel" className="m-2 p-1 flex flex-row">
-          {readyProjects.map((s) => {
-            return <SoftwareProjectCard {...s} />;
+          {readyProjects.map((s, i) => {
+            return <SoftwareProjectCard key={`project-${i}`} {...s} />;
           })}
         </div>
       </div>
