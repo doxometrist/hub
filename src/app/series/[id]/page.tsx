@@ -24,7 +24,7 @@ function SeriesView(
         <h3 className="text-xl bold m-2 p-2">{title}</h3>
         <Link
           className="border w-80 border-slate-300 text-slate-300 px-2 py-1 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
-          href={href}
+          href={`/hub/${href}`}
         >
           Start reading the first post!
         </Link>

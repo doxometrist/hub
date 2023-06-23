@@ -1,6 +1,5 @@
 import SoftwareProjectCard from "@/components/post-related/SoftwareProjectCard";
 import { projects } from "@/data/projects";
-import Link from "next/link";
 
 export default function SoftwarePage() {
   const readyProjects = projects.filter((s) => s.title);
