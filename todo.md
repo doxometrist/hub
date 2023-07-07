@@ -16,6 +16,13 @@
 - [x] change font https://fonts.google.com/
   - [x] the one for titles
 
+
+### fixes
+- [ ] change the reference to not use localhost
+- [ ] make the routes work actually, this didn't work with the current setup
+- [ ] pdf versions of series
+- [ ] a coherent visual style
+
 ### Later features
 
 - [ ] add example roadmaps
