@@ -22,6 +22,8 @@
 - [ ] make the routes work actually, this didn't work with the current setup
 - [ ] pdf versions of series
 - [ ] a coherent visual style
+- [ ] add emojiss in specific palces
+- [ ] add advanced TS features (omit types)
 
 ### Later features
 
