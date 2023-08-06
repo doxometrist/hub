@@ -14,7 +14,7 @@ const starterSeries: SeriesProps = {
   href: "https://doxometrist.substack.com/p/tpot-hermeticism-or-a-pagan-guide",
   description: "",
   photoUrl: "",
-  title: "Starter series",
+  title: "Pagan/acc",
   completed: false,
   id: 1,
   featured: true

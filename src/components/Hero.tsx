@@ -8,14 +8,15 @@ const outcomes = [
   "All other stuff - if I do a podcast one day, it'll be referenced here!",
 ];
 
-
 const Hero = () => {
   return (
-    <div className="border border-gray-200 md:flex md:flex-row">
-      <div className="bg-gray-100 text-center md:w-1/3">
-        <Image src={""} alt={""} />
-      </div>
-      <div className="px-4 md:px-8 py-6 self-center md:w-2/3">
+    <div className="border border-gray-200 md:flex md:flex-row rounded-xl">
+      {
+        /* <div className="bg-gray-100 text-center md:w-1/3">
+        <Image src={'/assets/images/pfp-edit.jpg'} alt={""} width={80} height={80} />
+      </div> */
+      }
+      <div className="px-4 md:px-8 py-6 self-center md:w-2/3 ">
         <h2 className="font-bold text-2xl mb-3">this is a directory to my:</h2>
         <ul className="mb-6">
           {outcomes.map((i) => (

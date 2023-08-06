@@ -12,30 +12,34 @@ const ComingSoonBadge = () => (
 );
 
 function SeriesCard(
-  { description, title, completed, id, photoUrl }: SeriesProps,
+  { href, description, title, completed, id, photoUrl }: SeriesProps,
 ) {
   const partialUrl = `series-${title}`;
   const url = `http://localhost:3000/#${partialUrl}`;
   return (
-    <div id={id.toString()}>
+    <div id={id.toString()} className="mx-2">
       {photoUrl &&
         (
           <Image
             src={photoUrl}
-            width={80}
-            height={80}
+            width={280}
+            height={280}
             alt={`${title} reference picture`}
           />
         )}
       <div id="heading" className="m-2 p-2 flex flex-row">
-        <button
+        {
+          /* <button
           onClick={() => navigator.clipboard.writeText(url)}
           className="m-2 p-2"
         >
-          copy reference
+          {series}
           <FontAwesomeIcon icon="link" />
-        </button>
-        <h3 className="text-xl bold">{title}</h3>
+        </button> */
+        }
+        <a href={href}>
+          <h3 className="text-xl bold underline">{title}</h3>
+        </a>
       </div>
       <div id="detailsLink" className="m-2 p-2 underline">
         <a href={`/series/${id}`}>See more</a>
