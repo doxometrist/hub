@@ -17,7 +17,7 @@ const starterSeries: SeriesProps = {
   title: "Pagan/acc",
   completed: false,
   id: 1,
-  featured: true
+  // featured: true
 };
 
 const spqrSeries: SeriesProps = {
