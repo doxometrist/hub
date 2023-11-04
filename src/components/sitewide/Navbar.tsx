@@ -18,6 +18,8 @@ function NavButton({ link, text }: NavButtonProps) {
 export function Navbar() {
   return (
     <div className="w3-top  flex flex-row gap-2 justify-end" id="navbar ">
+      <NavButton link="youtube" text="My Youtube page" />
+      <p>|</p>
       <NavButton link="history-book" text="On history" />
       <NavButton link="philosophy-book" text="On philosophy" />
       <NavButton link="religion-book" text="On religion" />

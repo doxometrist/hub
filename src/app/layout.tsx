@@ -4,6 +4,7 @@ import { Header } from "@/components/sitewide/Header";
 import { inter, normalFont } from "./fonts";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { Footer } from "@/components/sitewide/Footer";
 
 export const metadata = {
   title: "Doxometrist's Hub",
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Header />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

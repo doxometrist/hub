@@ -4,9 +4,12 @@ import { SeriesProps } from "@/components/post-related/SeriesProps";
 import { series } from "@/data/series";
 import Link from "next/link";
 import Image from "next/image";
-const cta = "There's only 1 call to action here:";
+import { CallToAction } from "../components/CallToAction";
+import PlaylistsList from "@/components/youtube/PlaylistsList";
+
 export default async function Home() {
   const featured: SeriesProps[] = series.filter((s) => s.featured);
+
   return (
     <>
       <h3>Welcome to my Hub</h3>
@@ -19,17 +22,15 @@ export default async function Home() {
           height={240}
         />
         <div className="m-2 p-2 w-4/5 border-2 border border-solid border-red-800">
-
-        <Link
-        
-          href="/files/pagan-acc.pdf"
-          aria-label="pagan-acc pdf BETA"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-slate-400 hover:text-slate-50"
-        >
-          Download Discovering Pagan/Acc (Beta)
-        </Link>
+          <Link
+            href="/files/pagan-acc.pdf"
+            aria-label="pagan-acc pdf BETA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-400 hover:text-slate-50"
+          >
+            Download Discovering Pagan/Acc (Beta)
+          </Link>
         </div>
       </div>
 
@@ -44,25 +45,8 @@ export default async function Home() {
           })}
         </div>
       </div>
-      <div id="cta" className="m-2 p-2">
-        <h3 id="cta" className="m-2 p-2">
-          {cta}
-        </h3>
-        <span>
-          <a
-            href="https://twitter.com/doxometrist?ref_src=twsrc%5Etfw"
-            className="twitter-follow-button"
-            data-show-count="true"
-          >
-            Follow @doxometrist
-          </a>
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-          >
-          </script>
-        </span>
-      </div>
+      <PlaylistsList />
+      <CallToAction />
     </>
   );
 }
