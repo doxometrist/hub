@@ -5,7 +5,7 @@ type PlaylistCardProps = {
 
 export function PlaylistCard({ name, link }: PlaylistCardProps) {
   return (
-    <div>
+    <div className="m-2 p-2 bg-secondary">
       <h4>{name}</h4>
       <iframe
         width="560"

@@ -6,6 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { CallToAction } from "../components/CallToAction";
 import PlaylistsList from "@/components/youtube/PlaylistsList";
+import { presences } from "@/data/presences";
+import PresenceCard from "@/components/PrescenceCard";
 
 export default async function Home() {
   const featured: SeriesProps[] = series.filter((s) => s.featured);
@@ -46,6 +48,15 @@ export default async function Home() {
         </div>
       </div>
       <PlaylistsList />
+      <div id="presencesWrapper">
+        <h2 className="text-2xl font-bold">You can find me at</h2>
+
+        <div id="presencesList" className="m-2 p-2 grid grid-cols-2">
+          {presences.map((p, i) => {
+            return <PresenceCard presence={p} key={`presence-${i}`} />
+          })}
+        </div>
+      </div>
       <CallToAction />
     </>
   );
